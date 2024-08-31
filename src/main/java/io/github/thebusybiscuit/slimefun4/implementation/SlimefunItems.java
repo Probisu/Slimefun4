@@ -75,7 +75,7 @@ public final class SlimefunItems {
     public static final SlimefunItemStack CLOTH = new SlimefunItemStack("CLOTH", Material.PAPER, "&b布");
     public static final SlimefunItemStack REINFORCED_CLOTH = new SlimefunItemStack(
             "REINFORCED_CLOTH", Material.PAPER, "&b强化布料", "", "&f这种布在被铅强化过后", "&f可以防止放射物给你带来的负面影响");
-    public static final SlimefunItemStack TIN_CAN = new SlimefunItemStack("CAN", HeadTexture.TIN_CAN, "&7锡罐");
+    public static final SlimefunItemStack TIN_CAN = new SlimefunItemStack("CAN", HeadTexture.TIN_CAN, "&r锡罐");
     public static final SlimefunItemStack NIGHT_VISION_GOGGLES = new SlimefunItemStack(
             "NIGHT_VISION_GOGGLES", Material.LEATHER_HELMET, Color.BLACK, "&a夜视眼镜", "", "&9+ 夜视效果");
     public static final SlimefunItemStack ELYTRA_CAP = new SlimefunItemStack(
@@ -625,7 +625,7 @@ public final class SlimefunItems {
     public static final SlimefunItemStack CHRISTMAS_FRUIT_CAKE =
             new SlimefunItemStack("CHRISTMAS_FRUIT_CAKE", Material.PUMPKIN_PIE, ChatUtils.christmas("水果蛋糕"));
     public static final SlimefunItemStack CHRISTMAS_APPLE_PIE =
-            new SlimefunItemStack("CHRISTMAS_APPLE_PIE", Material.PUMPKIN_PIE, "&7苹果派");
+            new SlimefunItemStack("CHRISTMAS_APPLE_PIE", Material.PUMPKIN_PIE, "&r苹果派");
     public static final SlimefunItemStack CHRISTMAS_HOT_CHOCOLATE = new SlimefunItemStack(
             "CHRISTMAS_HOT_CHOCOLATE",
             Color.MAROON,
@@ -2138,7 +2138,7 @@ public final class SlimefunItems {
     public static final SlimefunItemStack GPS_ACTIVATION_DEVICE_SHARED = new SlimefunItemStack(
             "GPS_ACTIVATION_DEVICE_SHARED",
             Material.STONE_PRESSURE_PLATE,
-            "&7GPS 激活设备 &3(公共)",
+            "&rGPS 激活设备 &3(公共)",
             "",
             "&7把它放在传送矩阵上",
             "&7并且踩下这个踏板以选择",
@@ -2146,7 +2146,7 @@ public final class SlimefunItems {
     public static final SlimefunItemStack GPS_ACTIVATION_DEVICE_PERSONAL = new SlimefunItemStack(
             "GPS_ACTIVATION_DEVICE_PERSONAL",
             Material.STONE_PRESSURE_PLATE,
-            "&7GPS 激活设备 &a(私人)",
+            "&rGPS 激活设备 &a(私人)",
             "",
             "&7把它放在传送矩阵上",
             "&7并且踩下这个踏板以选择",
